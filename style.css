@@ -1,0 +1,49 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+*{
+    font-family: Verdana,sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 307px;
+    margin: 5% auto;
+    width: 307px;
+}
+.game-container div{
+    float: left;
+    height: 104px;
+    width: 100px;
+    background: #CCC;
+    border: 1px solid #33AAEE;
+    background: #CCC;
+}
+.game-container div:hover{
+    background: #EEE;
+    cursor: pointer;
+}
